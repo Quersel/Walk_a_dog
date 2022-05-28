@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.row {
+  width: 1170px;
+}
+
+.section {
+  width: 100%;
+  width: 500px;
+  height: 920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0.75rem 1rem;
+  background-color: #19c0c0;
+  border-radius: 10px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /*padding: 1rem 0.5rem;*/
+
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 2px solid #2EF9F9;
+  text-align: center;
+}
